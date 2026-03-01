@@ -1,5 +1,4 @@
 // FocusEvent Object
-
 // 1. onblur
 // 2. onfocus
 // 3. onfocusIn
