@@ -1,5 +1,6 @@
 // DragEvent Object
 
+
 // ondragstart
 // ondrag
 // ondragend
@@ -26,6 +27,8 @@ div.addEventListener("drop", function(event){
     div.appendChild(document.getElementById(id));
     event.preventDefault();
 });
+
+//----------------------
 
 
 
