@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library functions of string</title>
+</head>
+<body>
+    
+    <script>
+
+        var text = "Bangladesh";
+
+        text.length; //finging the total length of text
+
+        document.write("Number of character " + text.length);
+
+        let a = "Bangladesh";
+
+        text.charAt(2); //here I want to print the 2nd character of the word...Its actually 2nd number index value
+        document.write("<br>Character : " + text.charAt(2));
+
+        let x = prompt("Enter your name : ");// taking user input
+        document.write("<br>Length of the name : " + x.length + "<br>")
+
+
+        
+
+        let y = "antur"
+        y = y.toUpperCase();// it converts all the words into capital 
+        y = y.toLowerCase();// it converts all the words into small letter
+        document.write(y);
+
+         var value1 = "Bangladesh";
+         var value2 = " is so beautiful";
+         document.write("<br>" + value1.concat(value2)); // adding two values, which is called concatenation
+        
+       /* var value = value1.concat(value2)
+        document.write(value);*/ //another way of adding values
+
+
+        /*------------------------slice function-----------------*/a
+
+        var texT1 = "Bangladesh";
+        var texT = texT1.slice(2, 5); // it will slice the word from 2 index - 4 index......the output will be : ngl
+        document.write("<br>" + texT);
+        
+
+    </script>
+
+</body>
+</html>
