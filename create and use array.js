@@ -8,7 +8,6 @@ names[1]="Joy";
 names[2]="Shuvra";
 names[3]="Ronok";
 names[4]="Ramprashad";
-
 //document.write(names[0]);
 //document.write(names.length);// using this we can findout the length of an array
 
@@ -23,4 +22,4 @@ var country1 = ["Bangladesh","India"];
 var country2 = ["Japan","China"];
 var country = country1.concat(country2);// adding two array
 document.write(country);
-//----------------------------------------------
+
