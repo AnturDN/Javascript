@@ -30,7 +30,7 @@ const {id,name} = studentInfo
 console.log(id);
 console.log(name);
 
-//-----------nested object destructure------
+//-----------nested object destructure---------
 
 // const studentInfo = {
 //     id : 519,
@@ -47,7 +47,7 @@ console.log(name);
 // console.log(language.beginner);
 // console.log(name);
 
-//---------destructuring function parameters--------
+//---------destructuring function parameters------
 
 // const studentsInfo = (student) => {
 //     console.log(`${student.id}, ${student.name}`)
