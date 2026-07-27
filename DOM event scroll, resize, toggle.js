@@ -29,6 +29,7 @@
 //     console.log(`height: ${height}, width: ${width}`);// will print the height and width of the window if we change it
 // });
 
+
 //-----------------toggle-----------------
 
 // const details = document.querySelector("details");
