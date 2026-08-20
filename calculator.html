@@ -4,36 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link rel="stylesheet" href="calculator.css">
 </head>
 <body>
     
-    <div id="calculator">
-        <input id="display">
-        <div id="keys">
-            <button onclick="appendToDisplay('+')" class="btn">+</button>
-            <button onclick="appendToDisplay('7')">7</button>
-            <button onclick="appendToDisplay('8')">8</button>
-            <button onclick="appendToDisplay('9')">9</button>
-            <button onclick="appendToDisplay('-')" class="btn">-</button>
-            <button onclick="appendToDisplay('4')">4</button>
-            <button onclick="appendToDisplay('5')">5</button>
-            <button onclick="appendToDisplay('6')">6</button>
-            <button onclick="appendToDisplay('*')" class="btn">*</button>
-            <button onclick="appendToDisplay('1')">1</button>
-            <button onclick="appendToDisplay('2')">2</button>
-            <button onclick="appendToDisplay('3')">3</button>
-            <button onclick="appendToDisplay('/')" class="btn">/</button>
-            <button onclick="appendToDisplay('0')">0</button>
-            <button onclick="appendToDisplay('.')">.</button>
-            <button onclick="calculate()">=</button>
-            <button onclick="clearDisplay()" class="btn">C</button>
-        </div>
-    </div>
+    <script>
 
+        var num1 = prompt("Enter first number : "); // taking user input
+        var num2 = prompt("Enter second number : "); 
+        var sum, sub, mul, div, rem;// instead of using so many variable we can use "result"
 
+        num1 = parseInt(num1,10); // converting into integer
+        num2 = parseInt(num2,10);
 
+        sum = num1 + num2;
+        document.write(num1 + " + " + num2 + " = " + sum + "<br>");
 
-    <script src = "calculator.js"></script>
+        sub = num1 - num2;
+        document.write(num1 + " - " + num2 + " = " + sub + "<br>");
+
+        mul = num1 * num2;
+        document.write(num1 + " * " + num2 + " = " + mul + "<br>");
+
+        div = num1 / num2;
+        document.write(num1 + " / " + num2 + " = " + div + "<br>");
+
+        rem = num1 % num2;
+        document.write(num1 + " % " + num2 + " = " + rem + "<br>");
+
+    </script>
+
 </body>
 </html>
