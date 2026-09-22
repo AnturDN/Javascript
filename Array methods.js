@@ -29,7 +29,7 @@ let firstEvennumberIndex = number.findIndex(eventnumber);
 console.log(firstEvennumber)
 console.log(firstEvennumberIndex) 
 
-//--------------same thing using object----------------------------
+//--------------same thing using object----------------------
 
 const students = [
     {
