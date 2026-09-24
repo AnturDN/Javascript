@@ -5,7 +5,6 @@ const taskOne = () => {
 }
 
 
-
 const dataLoading = () =>{
     console.log("Task2. Data loading");
 }
