@@ -8,7 +8,7 @@
 })();//--> IIFEs
 
 
-//--------IIFEs with parameter---------------------
+//--------IIFEs with parameter-----------------
 
 /*(function display(messege){
     document.write(messege);
