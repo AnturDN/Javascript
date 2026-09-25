@@ -5,7 +5,6 @@
 
 
 
-
 const input = document.querySelector("input");
 const p = document.querySelector("p");
 input.addEventListener('copy', function(){ // if we write something on the input then copy it then it will display  "you have copied"
