@@ -21,7 +21,6 @@
 // // pathname
 // console.log(location.pathname);
 
-
 var locationDiv = document.querySelector(".location-div");
 
 var p1 = locationDiv.children[0];
