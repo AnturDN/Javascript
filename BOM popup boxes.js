@@ -1,7 +1,7 @@
 
 // Popup boxes - alert, confirm, prompt
     
-//-----------Confirm---------------
+//-----------Confirm-------------
 
 // function deletSomething(){
 //     let value = confirm("Do you want to delet?");
