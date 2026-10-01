@@ -3,7 +3,7 @@
 // setTimeOut(), setInterval()
 
 
-//----------------------setTimeOut-----------------------------
+//----------------------setTimeOut---------------------------------
 
 
 // setTimeout(()=>{  // Anonymous function
