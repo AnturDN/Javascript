@@ -2,7 +2,6 @@
 // canplay, play, playing, pause, progress, ended, volumechange, waiting
 
 
-
 const video = document.querySelector("video");
 video.addEventListener("canplay", function(){
     console.log("canplay");
