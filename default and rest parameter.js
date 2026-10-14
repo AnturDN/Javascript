@@ -6,7 +6,7 @@ function message(text = "Hello I am Antur"){ // Default parameter
 }
 message();
 message("I love JS"); 
-//---------------------------------------------------------------------
+//----------------------------------------------------------------
 
 "use strict"
 function printNumbers(x,y, ...z){ // Rest parameter
