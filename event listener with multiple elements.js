@@ -21,8 +21,7 @@
 
 // });
 
-
-//-----------Same thing but using less code------------
+//--------------Same thing but using less code------------------
 
 // var len = document.querySelectorAll("myButton").length
 // for(var i = 0; i<len; i++) // we can also use the for loop like this
