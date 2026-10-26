@@ -5,7 +5,6 @@
 
 //----------------------setTimeOut------------------------------
 
-
 // setTimeout(()=>{  // Anonymous function
 
 //     console.log('hi');
