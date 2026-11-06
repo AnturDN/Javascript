@@ -15,7 +15,6 @@ function startClock(){
     let time = hours + "+" + minutes + ":" + seconds;
 
     message.textContent = time;
-
     setInterval(startClock,1000);
 
 }
