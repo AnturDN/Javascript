@@ -3,6 +3,7 @@
 const saveButton = document.querySelector('.save-button');
 const message = document.querySelector('.message');
 saveButton.addEventListener('click', startClock);
+
 function startClock(){
     let date = new Date();
     let hours = date.getHours();
