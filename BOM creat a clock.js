@@ -17,7 +17,6 @@ function startClock(){
 
     message.textContent = time;
     setInterval(startClock,1000);
-
 }
 
 function formatTime(value){
